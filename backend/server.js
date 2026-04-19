@@ -16,6 +16,8 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/complaints', require('./routes/complaintRoutes'));
 app.use('/api/maintenance', require('./routes/maintenanceRoutes'));
 app.use('/api/notices', require('./routes/noticeRoutes'));
+app.use('/api/residents', require('./routes/residentRoutes'));
+app.use('/api/expenses', require('./routes/expenseRoutes'));
 
 app.get('/', (req, res) => {
   res.send('CommuniHub API is running...');
