@@ -13,6 +13,9 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/complaints', require('./routes/complaintRoutes'));
+app.use('/api/maintenance', require('./routes/maintenanceRoutes'));
+app.use('/api/notices', require('./routes/noticeRoutes'));
 
 app.get('/', (req, res) => {
   res.send('CommuniHub API is running...');
