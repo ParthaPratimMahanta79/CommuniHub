@@ -12,6 +12,7 @@ import AdminResidents from './pages/admin/Residents';
 import AdminComplaints from './pages/admin/Complaints';
 import AdminExpenses from './pages/admin/Expenses';
 import GuardDashboard from './pages/guard/Dashboard';
+import AdminFacilities from './pages/admin/Facilities';
 
 const ProtectedRoute = ({ children, roles }) => {
   const { user } = useAuth();
@@ -40,7 +41,8 @@ function App() {
       <Route path="/admin/residents" element={<ProtectedRoute roles={['admin']}><AdminResidents /></ProtectedRoute>} />
       <Route path="/admin/complaints" element={<ProtectedRoute roles={['admin']}><AdminComplaints /></ProtectedRoute>} />
       <Route path="/admin/expenses" element={<ProtectedRoute roles={['admin']}><AdminExpenses /></ProtectedRoute>} />
-
+      <Route path="/admin/facilities" element={<ProtectedRoute roles={['admin']}><AdminFacilities /></ProtectedRoute>} />
+      
       {/* Guard Routes */}
       <Route path="/guard/dashboard" element={<ProtectedRoute roles={['guard']}><GuardDashboard /></ProtectedRoute>} />
 

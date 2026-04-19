@@ -20,7 +20,7 @@ export default function AdminDashboard() {
         <h2 className="text-2xl font-bold text-gray-800 mb-6">🏠 Admin Dashboard</h2>
 
         {/* Stats */}
-        <div className="grid grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           <div className="bg-white rounded-xl shadow-sm p-6 border-l-4 border-indigo-500">
             <p className="text-sm text-gray-500">Total Residents</p>
             <p className="text-3xl font-bold text-indigo-600 mt-1">{residents.length}</p>

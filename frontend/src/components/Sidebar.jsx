@@ -14,6 +14,7 @@ const adminLinks = [
   { path: '/admin/residents', label: '👥 Residents' },
   { path: '/admin/complaints', label: '📋 Complaints' },
   { path: '/admin/expenses', label: '💰 Expenses' },
+  { path: '/admin/facilities', label: '🏊 Facilities' },
 ];
 
 const guardLinks = [
