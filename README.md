@@ -2,7 +2,7 @@
 
 > **Adivya 2.0 Developer Hackathon | Problem Statement #26ENCH8**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://communi-hub-ten.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://communi-hub-ten.vercel.app/login)
 [![Backend](https://img.shields.io/badge/Backend-Render-blue?style=for-the-badge&logo=render)](https://communihub-backend.onrender.com)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB%20Atlas-green?style=for-the-badge&logo=mongodb)](https://mongodb.com)
 
